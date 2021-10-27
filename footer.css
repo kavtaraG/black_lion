@@ -1,0 +1,98 @@
+
+.footer-icon{
+    padding: 0 50px;
+    padding-top: 20px;
+    
+}
+
+footer{
+    background-color: rgb(29, 29, 29);
+}
+
+.footer-icons{
+    align-items: center;
+    margin: 0 800px;
+}
+
+.footer_p{
+    align-items: center;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.GR{
+    margin: 0 800px;
+}
+
+.img-footer{
+    background-color: coral;
+    margin: 0 850px;
+}
+
+.footer_mail{
+    content: url(./imgs/footer-meil.png);
+    height: 10px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 1px;
+    margin-left: 4px;
+    padding: 12px 10px 13px 15px;
+    cursor: pointer;
+}
+
+.footer_mail:hover, .footer_mail_footer_tw:hover, .footer_mail_footer_fb:hover, .footer_mail_footer_be:hover, .footer_mail_deviantart:hover, .footer_mail_footer_flickr:hover{
+    background-color: goldenrod;
+}
+
+.footer_mail_footer_tw{
+    content: url(./imgs/Twitter.png);
+    padding: 12px 10px 13px 15px;
+}
+
+
+.footer_mail_footer_fb{
+    content: url(./imgs/Facebook.png);
+    padding: 12px 10px 13px 15px;
+}
+
+.footer_mail_footer_be{
+    content: url(./imgs/BE.png);
+    padding: 12px 10px 13px 15px;
+}
+
+.footer_mail_deviantart{
+    content: url(./imgs/Deviantart.png);
+    padding: 12px 10px 13px 15px;
+}
+
+.footer_mail_footer_flickr{
+    content: url(./imgs/Flickr.png);
+    padding: 12px 10px 13px 15px;
+}
+
+@media screen and (max-width: 1024px){
+    
+    .footer-icon{
+        margin: 0 350px 0 -650px;
+        align-items: center;
+    }
+
+    .footer-icons{
+        margin: 0 350px 0 -650px;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    
+    .footer-icon{
+        margin: 0 350px 0 -650px;
+        align-items: center;
+    }
+
+    .footer-icons{
+        margin: 0 350px 0 -650px;
+    }
+    
+}
